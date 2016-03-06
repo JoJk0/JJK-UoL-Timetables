@@ -3,7 +3,7 @@
 // @namespace    http://jojko.xaa.pl/
 // @require      http://code.jquery.com/jquery-latest.js
 // @version      0.1.2
-// @match        https://timetables.liv.ac.uk/desktop
+// @match        https://www.liverpool.ac.uk/timetables
 // @match        https://plm.liv.ac.uk:8447/cas-web/logout*
 // @match        https://plm.liv.ac.uk:8447/cas-web/login?service&timetable
 // @match        https://plm.liv.ac.uk/web/home-community/1?timetable
