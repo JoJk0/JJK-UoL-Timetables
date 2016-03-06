@@ -1,6 +1,8 @@
-<img src="icon-128x128.png?raw=true" width="28" height="28" style="margin-right: 20px;" /> Better UoL: Timetables 0.1
+<img src="icon-128x128.png?raw=true" width="28" height="28" style="margin-right: 20px;" /> Better UoL: Timetables 0.1.4
 ==================================
 This is a script that creates a new page to see timetables at The University of Liverpool. I created this script because there there weren't any alternative to ugly Liverpool Life if you use laptop/desktop.
+
+**Note!** This script is in early stage of development and could contain errors that are not solved yet.
 
 ###Main features
 - You don't have to enter to Liverpool Life and try to reach timetables. Now you can check them with just one click!
@@ -28,6 +30,6 @@ You can also download the script directly from [GitHub](https://raw.githubuserco
 ### Usage
 To open timetables page enter
 
-> ####timetables.liv.ac.uk/desktop
+> ####liv.ac.uk/timetables
 
 If you installed the script properly, the login page should appear. Otherwise you will see 404 error.
