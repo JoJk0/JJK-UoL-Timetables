@@ -33,7 +33,7 @@ uolt = {
    title: 'Better UoL: Timetables',
    version: '0.1',
    year: '2016',
-   url: 'https://timetables.liv.ac.uk/desktop',
+   url: 'https://timetables.liv.ac.uk/',
    website: 'jojko.xaa.pl',
    gitHub: 'https://github.com/JoJk0/JJK-UoL-Timetables'
 
