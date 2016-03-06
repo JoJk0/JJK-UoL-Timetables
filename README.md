@@ -16,7 +16,7 @@ In order to use this script you have to install proper extension for your browse
 ##### Google Chrome
 * [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
 
-At the moment, the script is only supported in Google Chrome. Mozilla Firefox and Opera compability is expected.
+At the moment, the script is only supported in Google Chrome. Mozilla Firefox and Opera compability is expected soon.
 
 ### Download
 You can download and install the script from [Greasy Fork](https://greasyfork.org/en/scripts/17806-better-uol-timetables).
