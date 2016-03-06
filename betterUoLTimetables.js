@@ -2,7 +2,7 @@
 // @name         Better UoL: Timetables
 // @namespace    http://jojko.xaa.pl/
 // @require      http://code.jquery.com/jquery-latest.js
-// @version      0.1.1
+// @version      0.1.2
 // @match        https://timetables.liv.ac.uk/desktop
 // @match        https://plm.liv.ac.uk:8447/cas-web/logout*
 // @match        https://plm.liv.ac.uk:8447/cas-web/login?service&timetable
@@ -33,7 +33,7 @@ uolt = {
    title: 'Better UoL: Timetables',
    version: '0.1',
    year: '2016',
-   url: 'https://timetables.liv.ac.uk/',
+   url: 'https://www.liverpool.ac.uk/timetables',
    website: 'jojko.xaa.pl',
    gitHub: 'https://github.com/JoJk0/JJK-UoL-Timetables'
 
