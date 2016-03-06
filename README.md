@@ -16,12 +16,7 @@ In order to use this script you have to install proper extension for your browse
 ##### Google Chrome
 * [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
 
-##### Mozilla Firefox
-* [Tampermonkey (Recommended)](https://addons.mozilla.org/en-GB/firefox/addon/tampermonkey/)
-* [Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/)
-
-##### Opera
-* [Violent Monkey](https://addons.opera.com/en-gb/extensions/details/violent-monkey/)
+At the moment, the script is only supported in Google Chrome. Mozilla Firefox and Opera compability is expected.
 
 ### Download
 You can download and install the script from [Greasy Fork](https://greasyfork.org/en/scripts/17806-better-uol-timetables).
