@@ -24,3 +24,10 @@ In order to use this script you have to install proper extension for your browse
 ### Download
 You can download and install the script from [Greasy Fork](https://greasyfork.org/en/scripts/17806-better-uol-timetables).
 You can also download the script directly from [GitHub](https://raw.githubusercontent.com/JoJk0/JJK-UoL-Timetables/master/betterUoLTimetables.js). However this option doesn't update automatically.
+
+### Usage
+To open timetables page enter
+
+> ####timetables.liv.ac.uk/desktop
+
+If you installed the script properly, the login page should appear. Otherwise you will see 404 error.
