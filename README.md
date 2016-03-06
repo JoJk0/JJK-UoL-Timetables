@@ -1,4 +1,4 @@
-Better UoL: Timetables 0.1
+<img src="icon-128x128.png?raw=true" width="28" height="28" style="margin-right: 20px;" /> Better UoL: Timetables 0.1
 ==================================
 This is a script that creates a new page to see timetables at The University of Liverpool. I created this script because there there weren't any alternative to ugly Liverpool Life if you use laptop/desktop.
 
