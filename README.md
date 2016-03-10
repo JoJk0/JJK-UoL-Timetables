@@ -28,3 +28,8 @@ To open timetables page enter
 > ####liv.ac.uk/timetables
 
 If you installed the script properly, the login page should appear. Otherwise you will see 404 error.
+
+### Screenshots
+
+<img src="screenshot1.PNG?raw=true" width="600" style="margin: 20px; border-radius: 3px: border: 1px solid #eee" />
+<img src="screenshot2.PNG?raw=true" width="600" style="margin: 20px; border-radius: 3px; border: 1px solid #eee" />
