@@ -2,7 +2,7 @@
 // @name         Better UoL: Timetables
 // @namespace    http://jojko.xaa.pl/
 // @require      http://code.jquery.com/jquery-latest.js
-// @version      0.1.4
+// @version      0.1.5
 // @match        https://www.liverpool.ac.uk/timetables
 // @match        https://plm.liv.ac.uk:8447/cas-web/logout*
 // @match        https://plm.liv.ac.uk:8447/cas-web/login?service&timetable
@@ -28,10 +28,10 @@
 //    CONFIG
 // -------------------------------------------------------------
 
-uolt = {
+var uolt = {
 
    title: 'Better UoL: Timetables',
-   version: '0.1.4',
+   version: '0.1.5',
    year: '2016',
    url: 'https://www.liverpool.ac.uk/timetables',
    website: 'jojko.xaa.pl',
@@ -935,9 +935,9 @@ $('#uol_right_nav').html('\
                             + ('0' + (MyDate.getMonth()+1)).slice(-2) + '/'
                             + MyDate.getFullYear();
 
-                        var x = toITCFormat(DateString, time)+"0Z";
-                        var y = toITCFormat(DateString, timePlus)+"0Z";
-                        var z = toITCFormat('01/01/2016', '01:00AM')+"0Z";
+                        var x = toITCFormat(DateString, time)+"0";
+                        var y = toITCFormat(DateString, timePlus)+"0";
+                        var z = toITCFormat('01/01/2016', '01:00AM')+"0";
 
                         timetableRow.push(x);
                         timetableRow.push(y);
