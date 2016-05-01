@@ -37,7 +37,7 @@ If you installed the script properly, the login page should appear. Otherwise yo
 ### Version history
 
 ##### 0.1.6
-- No changes yet :/
+- Corrected the typo disallowing to convert a date correctly ("Mai" -> "May")
 
 ##### 0.1.5
 - Fixed timezone issues
