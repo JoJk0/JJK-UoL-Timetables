@@ -1,4 +1,4 @@
-<img src="icon-128x128.png?raw=true" width="28" height="28" style="margin-right: 20px;" /> Better UoL: Timetables 0.1.6
+<img src="icon-128x128.png?raw=true" width="28" height="28" style="margin-right: 20px;" /> Better UoL: Timetables 0.1.7
 ==================================
 This is a script that creates a new page to see timetables at The University of Liverpool. I created this script because there there weren't any alternative to ugly Liverpool Life if you use laptop/desktop.
 
@@ -35,6 +35,9 @@ If you installed the script properly, the login page should appear. Otherwise yo
 <img src="screenshot2.PNG?raw=true" width="600" style="margin: 20px; border-radius: 3px; border: 1px solid #eee" />
 
 ### Version history
+
+##### 0.1.7
+- Fixed a problem of events that are longer than one hour
 
 ##### 0.1.6
 - Corrected the typo disallowing to convert a date correctly ("Mai" -> "May")

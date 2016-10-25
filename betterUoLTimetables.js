@@ -2,7 +2,7 @@
 // @name         Better UoL: Timetables
 // @namespace    http://jojko.xaa.pl/
 // @require      http://code.jquery.com/jquery-latest.js
-// @version      0.1.6
+// @version      0.1.7
 // @match        https://www.liverpool.ac.uk/timetables
 // @match        https://plm.liv.ac.uk:8447/cas-web/logout*
 // @match        https://plm.liv.ac.uk:8447/cas-web/login?service&timetable
@@ -19,6 +19,7 @@
 // @supportURL https://github.com/JoJk0/JJK-UoL-Timetables/issues
 // @grant unsafeWindow
 // @run-at document-start
+/*jshint multistr: true */
 
 // ==/UserScript==
 /* jshint -W097 */
@@ -31,7 +32,7 @@
 var uolt = {
 
    title: 'Better UoL: Timetables',
-   version: '0.1.6',
+   version: '0.1.7',
    year: '2016',
    url: 'https://www.liverpool.ac.uk/timetables',
    website: 'jojko.xaa.pl',
@@ -877,6 +878,7 @@ $('#uol_right_nav').html('\
     }
     function timeConvert(timer){
 
+        var time;
         switch(timer){
             case 1: time = '09:00AM'; break;
             case 2: time = '09:30AM'; break;
@@ -896,6 +898,7 @@ $('#uol_right_nav').html('\
             case 16: time = '04:30PM'; break;
             case 17: time = '05:00PM'; break;
             case 18: time = '05:30PM'; break;
+            default: time = "ERR";
         }
         return time;
 
@@ -923,7 +926,12 @@ $('#uol_right_nav').html('\
                         var time;
 
                         time = timeConvert(timer);
-                        var timePlus = timeConvert(timer+2);
+                        var timePlus = timeConvert(timer+parseInt($(this).attr("colspan")));
+                        /*if($(this).attr("colspan") == "4"){
+                            var timePlus = timeConvert(timer+4);
+                        } else{
+                            var timePlus = timeConvert(timer+2);
+                        }*/
                         unixDate = unixDate-0;
                         var changedDate = new Date(unixDate+(i-1)* 24 * 60 * 60 * 1000);
                         var MyDate = changedDate;
@@ -942,12 +950,18 @@ $('#uol_right_nav').html('\
                         timetableRow.push(x);
                         timetableRow.push(y);
                         timetableRow.push(z);
-                        timer++;
+                        timer = timer+(parseInt($(this).attr("colspan"))/2);
                         timetable.push(timetableRow); 
-                    };
+                    }
 
                 } 
-                timer++;
+                /* HERE --------------------------------------------------------------------------------------------------------------------------------------- */
+                if(parseInt($(this).attr("colspan")) >= 4){
+                    var x = parseInt($(this).attr("colspan"))/2;
+                    timer = timer+x;
+                } else{
+                    timer = timer+1;
+                }
 
             });
         }
