@@ -37,7 +37,7 @@ If you installed the script properly, the login page should appear. Otherwise yo
 ### Version history
 
 ##### 0.1.7
-- Nothing yet!
+- Fixed a problem of events that are longer than one hour
 
 ##### 0.1.6
 - Corrected the typo disallowing to convert a date correctly ("Mai" -> "May")
