@@ -2,7 +2,7 @@
 // @name         Better UoL: Timetables
 // @namespace    http://jojko.xaa.pl/
 // @require      http://code.jquery.com/jquery-latest.js
-// @version      0.1.7
+// @version      0.1.8
 // @match        https://www.liverpool.ac.uk/timetables
 // @match        https://plm.liv.ac.uk:8447/cas-web/logout*
 // @match        https://plm.liv.ac.uk:8447/cas-web/login?service&timetable
@@ -32,7 +32,7 @@
 var uolt = {
 
    title: 'Better UoL: Timetables',
-   version: '0.1.7',
+   version: '0.1.8',
    year: '2016',
    url: 'https://www.liverpool.ac.uk/timetables',
    website: 'jojko.xaa.pl',
@@ -853,7 +853,7 @@ $('#uol_right_nav').html('\
         case 'Sep': month = '09'; break;
         case 'Oct': month = '10'; break;
         case 'Nov': month = '11'; break;
-        case 'Dev': month = '12'; break;
+        case 'Dec': month = '12'; break;
 
     }
 
