@@ -36,7 +36,7 @@ If you installed the script properly, the login page should appear. Otherwise yo
 
 ### Version history
 
-##### 0.1.8
+##### 0.1.9
 - Adjusted to work in new academic year (2016/17)
 
 ##### 0.1.8
