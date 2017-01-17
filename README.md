@@ -1,4 +1,4 @@
-<img src="icon-128x128.png?raw=true" width="28" height="28" style="margin-right: 20px;" /> Better UoL: Timetables 0.1.8
+<img src="icon-128x128.png?raw=true" width="28" height="28" style="margin-right: 20px;" /> Better UoL: Timetables 0.1.9
 ==================================
 This is a script that creates a new page to see timetables at The University of Liverpool. I created this script because there there weren't any alternative to ugly Liverpool Life if you use laptop/desktop.
 
@@ -35,6 +35,9 @@ If you installed the script properly, the login page should appear. Otherwise yo
 <img src="screenshot2.PNG?raw=true" width="600" style="margin: 20px; border-radius: 3px; border: 1px solid #eee" />
 
 ### Version history
+
+##### 0.1.8
+- Adjusted to work in new academic year (2016/17)
 
 ##### 0.1.8
 - Fixed a typo that disallowed to export December's weeks
