@@ -2,13 +2,13 @@
 // @name         Better UoL: Timetables
 // @namespace    http://jojko.xaa.pl/
 // @require      http://code.jquery.com/jquery-latest.js
-// @version      0.1.8
+// @version      0.1.9
 // @match        https://www.liverpool.ac.uk/timetables
 // @match        https://plm.liv.ac.uk:8447/cas-web/logout*
 // @match        https://plm.liv.ac.uk:8447/cas-web/login?service&timetable
 // @match        https://plm.liv.ac.uk/web/home-community/1?timetable
 // @match        https://wlspi.liv.ac.uk/pls/spi/systlumi.p_WeeklyTimetableWrapper?p_style=GRID
-// @match        https://orbit.liverpool.ac.uk/SWS/UOL1516/ShowWeekly.asp
+// @match        https://orbit.liverpool.ac.uk/SWS/UOL1617/ShowWeekly.asp
 // @description Access the University of Liverpool timetables faster!
 // @author JoJko | jojko.xaa.pl
 // @encoding utf-8
@@ -238,7 +238,7 @@ body{\
 // -------------------------------------------------------------
 
     
-} else if(url.indexOf('orbit.liverpool.ac.uk/SWS/UOL1516/ShowWeekly.asp') >=0){
+} else if(url.indexOf('orbit.liverpool.ac.uk/SWS/UOL1617/ShowWeekly.asp') >=0){
 
 cssText += "\
 @media screen and (min-width: 500px) {\
@@ -832,7 +832,7 @@ $('#uol_right_nav').html('\
 //    TIMETABLE ICS EXPORTER
 // -------------------------------------------------------------
 
-} else if(url == 'https://orbit.liverpool.ac.uk/SWS/UOL1516/ShowWeekly.asp'){
+} else if(url == 'https://orbit.liverpool.ac.uk/SWS/UOL1617/ShowWeekly.asp'){
 
     var date = $('.header-3-0-13').text();
     var date1 = date.split('-');
